@@ -1,0 +1,504 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/****** universal *******/
+
+body{
+  padding: 0;
+  color: white;
+  font-family:'Lato', sans-serif;
+  letter-spacing: .04rem;
+  line-height: 1.3rem;
+}
+
+section{
+  padding: 3% 5%;
+}
+
+.centered{
+  text-align: center;
+}
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+h1, h2, h3, h4{
+  padding-bottom: 1%;
+  font-family: 'Bree Serif', sans-serif;
+  font-weight: normal;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.bg-image{
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* max-width: 100%; */
+  height: 40vh;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.title-icon{
+  font-size: 3rem;
+  padding-bottom: 2%;
+  text-align: center;
+  /* border-bottom: 2px white solid; */
+
+}
+
+/******* header ******/
+
+header{
+  height: 100vh;
+  background-color: #040202ad
+}
+
+.banner-image{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/126/378/large_2x/vector-office-illustration.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-text{
+  text-align: center;
+  padding-top: 8%;
+  line-height:normal;
+  /* font-family: 'Fira Sans', sans-serif; */
+}
+
+.banner-text h1, .banner-text h2{
+  padding-bottom: .5%;
+}
+
+.aboutButton{
+  padding: 1%;
+  margin-top: 3%;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20%;
+}
+
+/******* about ******/
+
+#about{
+  background-color: #ee6e56;
+}
+
+#about h2{
+  padding-bottom: 1%;
+}
+
+.profile-img{
+  border: 10px solid white;
+  border-radius: 100%;
+  height: 45vh;
+  background-position: 0 33%;
+  position: relative;
+}
+
+.right-col{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/******* skills ******/
+
+#skills{
+  background-color: #e0ae3e;
+}
+
+#skills h2, #skills h3{
+  padding-bottom: 2%;
+}
+
+#skills .grid-spaceBetween{
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+#skills .icon{
+  font-size: 3rem;
+  border: 5px solid white;
+  border-radius: 100%;
+  padding: 4%;
+  background-color: white;
+  color: #e0ae3e;
+  margin: 4%;
+}
+
+#skills .icon-vertical{
+  font-size: 3rem;
+  border: 5px solid white;
+  border-radius: 100%;
+  padding: 4% 8%;
+  background-color: white;
+  color: #e0ae3e;
+  margin: 4%;
+}
+
+.border{
+  border-top: 1px solid white;
+  margin: 0 30%;
+  padding: 1% 0;
+}
+
+/******* projects image section ******/
+
+#projects{
+  background-color: #3f848c;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+  padding: 5% 10%;
+}
+
+#projects h2{
+  padding-bottom: 3%;
+ }
+
+#projects h4{
+  font-size: 1.5rem;
+  padding-bottom: 0;
+  margin-top: 4%;
+}
+
+#projects [class*=col-]{
+  padding: 0;
+}
+
+#projects .margin-top{
+  margin-top: 3%;
+}
+
+#projects img{
+  border: 10px solid white;
+  border-radius: 2%;
+  /* margin: 1% -5%; */
+  padding: 5% 2%;
+  /* box-shadow: -1px -1px 47px -5px #6b6b6b, 1px 1px 20px -4px white; */
+}
+
+/* #projects img:hover{
+  filter: opacity(75%);
+} */
+
+.proj-description{
+  background-color: #80808094; /*when I added this I had the image set to 5 cols for overlap*/
+  padding: 0;
+  border-radius: 5%; */
+}
+
+.block{
+  /* padding: 1% 0; */
+}
+
+/* .link-text{
+  color: #0b616b;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+} */
+
+.container{
+  position: relative;
+  margin: 5% 3% 0 1%;;
+}
+
+.container .btn {
+  position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+background-color: #565656bf;
+color: #ffffff;
+font-size: 1rem;
+padding: 4%;
+cursor: pointer;
+border-radius: 5px;
+border: 3px white solid;
+}
+
+.container .btn:hover {
+  filter:opacity(75%);
+}
+
+/******* contact ******/
+
+#contact{
+  background-color: #716e7d;
+}
+
+#contact h2{
+  padding-bottom: 2%;
+}
+
+#contact .fab{
+  font-size: 2.8rem;
+  padding: 0 2%;
+}
+
+#contact p{
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  letter-spacing: .08rem;
+}
+
+.contact-info{
+  padding-top: 8%;
+}
+
+.contact-icons{
+  padding-top: 5%;
+}
+
+/******* footer ******/
+
+footer{
+background-color: #2996cad4;
+text-align: center;
+padding: 2%;
+}
+
+.quote{
+  font-family: 'Kavivanar', cursive;
+  letter-spacing: .07rem;
+}
+
+footer p{
+  letter-spacing: .07rem;
+}
+
+.upArrow{
+  display: inline;
+  float: right;
+  margin-top: -34px;
+  margin-right: 23px
+}
+
+
+/* magnificPopup css */
+
+/* for zoom animation
+uncomment this part if you haven't added this code anywhere else
+*/
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+
+
+/* magnific popup html */
+
+/* <a class="image-popup-vertical-fit" href="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_b.jpg" title="Caption. Can be aligned to any side and contain any HTML.">
+	<img src="http://farm9.staticflickr.com/8241/8589392310_7b6127e243_s.jpg" width="75" height="75">
+</a>
+<a class="image-popup-fit-width" href="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_b.jpg" title="This image fits only horizontally.">
+	<img src="http://farm9.staticflickr.com/8379/8588290361_ecf8c27021_s.jpg" width="75" height="75">
+</a>
+<a class="image-popup-no-margins" href="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg">
+	<img src="http://farm4.staticflickr.com/3721/9207329484_ba28755ec4_o.jpg" width="107" height="75">
+</a> */
+
+
+
+/******* media queries ********/
+
+@media all and (max-width: 1025px){
+  #projects .margin-top{
+    margin-top: 0;
+  }
+}
+
+@media all and (max-width:1015px){
+  .aboutButton{
+    display: none;
+  }
+
+}
+
+@media all and (max-width:768px){
+  .upArrow{
+    display: none;
+  }
+
+  .quote{
+    font-size: .9rem;
+  }
+
+  footer{
+    padding: 3% 4%;
+  }
+
+  #skills .icon, #skills .icon-vertical, #contact .fab, .title-icon{
+    font-size: 2rem;
+  }
+
+  #skills .icon-vertical{
+    padding: 4% 6%;
+  }
+
+  .profile-img{
+    margin-bottom: 2%;
+  }
+
+}
+
+@media all and (max-width:570px){
+  h2{
+    margin-bottom: 3%;
+    padding-top: 2%;
+  }
+
+}
+
+@media all and (min-width: 400px) and (max-width:577px){
+  .profile-img{
+    height: 50vh;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media all and (min-width: 1025px) and (max-width:1100px){
+
+  .banner-text{
+    padding-top: 10%;
+  }
+}
+
+/* ipad */
+@media all and (min-width: 768px) and (max-width:1024px){
+
+  .profile-img{
+    height: 30vh;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .banner-text{
+    padding-top: 30%;
+  }
+
+  .banner-text h1{
+    font-size: 2.5rem;
+  }
+
+  .banner-text h2{
+    font-size: 2rem;
+  }
+
+  .banner-image{
+    height: 75vh;
+  }
+}
+
+@media all and (min-width: 520px) and (max-width:767px){
+
+  .banner-text{
+    padding-top: 15%;
+    padding-left: 1%;
+  }
+
+  .banner-text h1{
+    font-size: 1.8rem;
+  }
+
+  .banner-text h2{
+    font-size: 1.2rem;
+  }
+
+  .banner-image{
+    height: 75vh;
+  }
+
+}
+
+@media all and (max-width: 519px){
+  .banner-text{
+    padding-top: 30%;
+  }
+
+  .banner-text h1{
+    font-size: 1.6rem;
+    padding-bottom: 0;
+  }
+
+  .banner-text h2{
+    font-size: 1.3rem;
+    padding: 0;
+  }
+
+  .banner-image{
+    height: 70vh;
+  }
+
+  /* .aboutButton{
+    padding: .8%;
+    margin-top: 2%;
+    font-size: .8rem;
+  } */
+}
+
+@media all and (max-width: 414px){
+  .banner-text{
+    padding-top: 35%;
+  }
+
+  .profile-img{
+    height: 30vh;
+  }
+
+}
