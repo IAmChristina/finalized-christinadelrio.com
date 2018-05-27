@@ -82,7 +82,7 @@ header{
 
 .banner-text{
   text-align: center;
-  padding-top: 8%;
+  /* padding-top: 7%; */
   line-height:normal;
   /* font-family: 'Fira Sans', sans-serif; */
 }
@@ -362,7 +362,7 @@ uncomment this part if you haven't added this code anywhere else
   }
 }
 
-@media all and (max-width:1015px){
+@media all and (max-width:1024px){
   .aboutButton{
     display: none;
   }
@@ -396,31 +396,44 @@ uncomment this part if you haven't added this code anywhere else
 
 }
 
-@media all and (max-width:570px){
-  h2{
-    margin-bottom: 3%;
-    padding-top: 2%;
-  }
-
-}
-
-@media all and (min-width: 400px) and (max-width:577px){
-  .profile-img{
-    height: 50vh;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-}
-
-@media all and (min-width: 1025px) and (max-width:1100px){
+@media all and (min-width: 1024px) and (max-width: 1365px){
 
   .banner-text{
-    padding-top: 10%;
+    padding-top: 7%;
+    /* text-shadow: 1px 1px 2px black; */
+  }
+
+  .banner-text h1{
+    font-size: 3.5rem;
+  }
+
+  .banner-text h2{
+    font-size: 2rem;
+  }
+
+  .banner-image{
+    height: 100vh;
+    }
+}
+
+@media all and (min-width: 1366px){
+
+  .banner-text{
+    padding-top: 15%;
+  }
+
+  .banner-text h1{
+    font-size: 4rem;
+  }
+
+  .banner-text h2{
+    font-size: 3rem;
   }
 }
 
+
 /* ipad */
-@media all and (min-width: 768px) and (max-width:1024px){
+@media all and (min-width: 768px) and (max-width:1023px){
 
   .profile-img{
     height: 30vh;
@@ -429,49 +442,72 @@ uncomment this part if you haven't added this code anywhere else
   }
 
   .banner-text{
-    padding-top: 30%;
+    padding-top: 25%;
   }
 
-  .banner-text h1{
+  /*.banner-text h1{
     font-size: 2.5rem;
   }
 
   .banner-text h2{
     font-size: 2rem;
-  }
+  } */
 
   .banner-image{
     height: 75vh;
   }
 }
 
-@media all and (min-width: 520px) and (max-width:767px){
+@media all and (min-width: 415px) and (max-width:767px){
 
   .banner-text{
-    padding-top: 15%;
-    padding-left: 1%;
+    padding-top: 8%;
+    /* padding-left: 1%; */
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
   }
 
   .banner-text h1{
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
   }
 
   .banner-text h2{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
 
   .banner-image{
-    height: 75vh;
+    height: 90vh;
+    background-size: ;
   }
 
 }
 
-@media all and (max-width: 519px){
+@media all and (max-width:414px){
+
+  .profile-img{
+    /* height: 30vh; */
+  }
+
   .banner-text{
-    padding-top: 30%;
+    padding-top: 35%;
+    text-align: center;
+    /* text-shadow: 1px 1px 2px black; */
   }
 
   .banner-text h1{
+    padding-left: .5%;
+    padding-right: .5%;
+  }
+
+
+}
+
+/* @media all and (max-width: 519px){ */
+  /* .banner-text{
+    padding-top: 30%;
+  } */
+
+  /* .banner-text h1{
     font-size: 1.6rem;
     padding-bottom: 0;
   }
@@ -479,11 +515,11 @@ uncomment this part if you haven't added this code anywhere else
   .banner-text h2{
     font-size: 1.3rem;
     padding: 0;
-  }
+  } */
 
-  .banner-image{
+  /* .banner-image{
     height: 70vh;
-  }
+  } */
 
   /* .aboutButton{
     padding: .8%;
@@ -492,13 +528,18 @@ uncomment this part if you haven't added this code anywhere else
   } */
 }
 
-@media all and (max-width: 414px){
-  .banner-text{
-    padding-top: 35%;
+/* @media all and (max-width:570px){
+  h2{
+    margin-bottom: 3%;
+    padding-top: 2%;
   }
 
+} */
+/*
+@media all and (min-width: 400px) and (max-width:577px){
   .profile-img{
-    height: 30vh;
+    height: 50vh;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-
-}
+} */
