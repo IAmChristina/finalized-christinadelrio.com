@@ -75,25 +75,38 @@ header{
 }
 
 .banner-image{
-  background-image: url('https://static.vecteezy.com/system/resources/previews/000/126/378/large_2x/vector-office-illustration.jpg');
+  background: url('../images/vector-office-illustration.jpg');
+  /* background-image: url('https://static.vecteezy.com/system/resources/previews/000/126/378/large_2x/vector-office-illustration.jpg'); */
   background-position: center;
   background-size: cover;
 }
 
-.banner-text{
+#banner-text{
   text-align: center;
-  /* padding-top: 7%; */
+  padding-top: 3%;
   line-height:normal;
-  /* font-family: 'Fira Sans', sans-serif; */
+  text-shadow: 3px 0px 21px #00000038, -1px 0px 1px black;
 }
 
-.banner-text h1, .banner-text h2{
+#banner-text h1, #banner-text h2{
   padding-bottom: .5%;
+}
+
+#banner-text h1, #banner-text h2{
+  padding-bottom: .5%;
+}
+
+#banner-text h1{
+  font-size: 4.5rem;
+}
+
+#banner-text h2{
+  font-size: 3.5rem;
 }
 
 .aboutButton{
   padding: 1%;
-  margin-top: 3%;
+  margin-top: 2%;
   color: white;
   border: 2px solid white;
   border-radius: 20%;
@@ -382,6 +395,10 @@ uncomment this part if you haven't added this code anywhere else
     padding: 3% 4%;
   }
 
+  .title-icon{
+    padding-top: 2%;
+  }
+
   #skills .icon, #skills .icon-vertical, #contact .fab, .title-icon{
     font-size: 2rem;
   }
@@ -396,41 +413,49 @@ uncomment this part if you haven't added this code anywhere else
 
 }
 
-@media all and (min-width: 1024px) and (max-width: 1365px){
+@media screen and (min-width: 1366px){
 
-  .banner-text{
-    padding-top: 7%;
-    /* text-shadow: 1px 1px 2px black; */
+  #banner-text{
+    padding-top: 9%;
   }
 
-  .banner-text h1{
+  #banner-text h1{
+    font-size: 5rem;
+  }
+
+  #banner-text h2{
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1365px){
+
+  #banner-text{
+    text-align: center;
+    padding-top: 3%;
+    line-height:normal;
+
+  }
+
+  #banner-text h1{
+    font-size: 4.5rem;
+  }
+
+  #banner-text h2{
     font-size: 3.5rem;
   }
 
-  .banner-text h2{
-    font-size: 2rem;
+}
+
+@media all and (min-width: 1024px) and (max-width:1200px){
+  #banner-text{
+    padding-top: 7%;
   }
 
   .banner-image{
-    height: 100vh;
-    }
-}
-
-@media all and (min-width: 1366px){
-
-  .banner-text{
-    padding-top: 15%;
-  }
-
-  .banner-text h1{
-    font-size: 4rem;
-  }
-
-  .banner-text h2{
-    font-size: 3rem;
+    height: 75vh;
   }
 }
-
 
 /* ipad */
 @media all and (min-width: 768px) and (max-width:1023px){
@@ -441,17 +466,19 @@ uncomment this part if you haven't added this code anywhere else
     padding-right: 5%;
   }
 
-  .banner-text{
-    padding-top: 25%;
+  #banner-text{
+    padding-top: 13%;
   }
 
   /*.banner-text h1{
     font-size: 2.5rem;
-  }
+  }*/
 
-  .banner-text h2{
-    font-size: 2rem;
-  } */
+  #banner-text h2{
+    /* font-size: 2rem; */
+    padding-left: 4%;
+    padding-right: 1%
+  }
 
   .banner-image{
     height: 75vh;
@@ -460,12 +487,11 @@ uncomment this part if you haven't added this code anywhere else
 
 @media all and (min-width: 415px) and (max-width:767px){
 
-  .banner-text{
+  /* .banner-text{
     padding-top: 8%;
-    /* padding-left: 1%; */
     text-align: center;
     text-shadow: 1px 1px 2px black;
-  }
+  } */
 
   .banner-text h1{
     /* font-size: 1.8rem; */
@@ -477,7 +503,6 @@ uncomment this part if you haven't added this code anywhere else
 
   .banner-image{
     height: 90vh;
-    background-size: ;
   }
 
 }
@@ -488,17 +513,23 @@ uncomment this part if you haven't added this code anywhere else
     /* height: 30vh; */
   }
 
-  .banner-text{
-    padding-top: 35%;
-    text-align: center;
+  #banner-text{
+    padding-top: 18%;
+    /* text-align: center; */
     /* text-shadow: 1px 1px 2px black; */
   }
 
-  .banner-text h1{
-    padding-left: .5%;
-    padding-right: .5%;
+  #banner-text h1{
+    font-size: 2.5rem;
   }
 
+  #banner-text h2{
+    font-size: 2rem;
+  }
+
+  .banner-image{
+    height: 70vh;
+  }
 
 }
 
