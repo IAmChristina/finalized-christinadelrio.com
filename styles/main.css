@@ -72,6 +72,7 @@ a{
 header{
   height: 100vh;
   background-color: #040202ad
+  position: relative;
 }
 
 .banner-image{
@@ -86,6 +87,7 @@ header{
   padding-top: 3%;
   line-height:normal;
   text-shadow: 3px 0px 21px #00000038, -1px 0px 1px black;
+  position: relative;
 }
 
 #banner-text h1, #banner-text h2{
@@ -125,7 +127,7 @@ header{
 .profile-img{
   border: 10px solid white;
   border-radius: 100%;
-  height: 45vh;
+  height: 40vh;
   background-position: 0 33%;
   position: relative;
 }
@@ -408,12 +410,12 @@ uncomment this part if you haven't added this code anywhere else
   }
 
   .profile-img{
-    margin-bottom: 2%;
+    margin-bottom: 3%;
   }
 
 }
 
-@media screen and (min-width: 1366px){
+@media screen and (min-width: 1301px){
 
   #banner-text{
     padding-top: 8%;
@@ -428,21 +430,31 @@ uncomment this part if you haven't added this code anywhere else
   }
 }
 
-@media screen and (min-width: 1201px) and (max-width: 1365px){
+@media screen and (min-width: 1201px) and (max-width: 1300px){
 
   #banner-text{
     text-align: center;
-    padding-top: 5%;
-    line-height:normal;
-
+    padding-top: 22vh;
+    line-height:4.5rem;
   }
 
   #banner-text h1{
     font-size: 4.5rem;
+    padding-bottom: 0;
   }
 
   #banner-text h2{
     font-size: 3.5rem;
+    padding-bottom: .3%;
+  }
+
+  .aboutButton{
+    padding: 1%;
+    margin-top: 1.2%;
+  }
+
+  .banner-image{
+    background-position: unset;
   }
 
 }
@@ -503,13 +515,13 @@ uncomment this part if you haven't added this code anywhere else
     height: 80vh;
   }
 
+  .profile-img{
+    padding:15%;
+  }
+
 }
 
 @media all and (max-width:414px){
-
-  .profile-img{
-    /* height: 30vh; */
-  }
 
   #banner-text{
     padding-top: 18%;
@@ -527,6 +539,11 @@ uncomment this part if you haven't added this code anywhere else
 
   .banner-image{
     height: 70vh;
+  }
+
+  .profile-img{
+    padding: 30%;
+    height: 30vh;
   }
 
 }
