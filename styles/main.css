@@ -416,7 +416,7 @@ uncomment this part if you haven't added this code anywhere else
 @media screen and (min-width: 1366px){
 
   #banner-text{
-    padding-top: 9%;
+    padding-top: 8%;
   }
 
   #banner-text h1{
@@ -432,7 +432,7 @@ uncomment this part if you haven't added this code anywhere else
 
   #banner-text{
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
     line-height:normal;
 
   }
